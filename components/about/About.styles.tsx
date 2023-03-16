@@ -37,7 +37,6 @@ export default createStyles((theme) => ({
       maxWidth: `${rem(250)}`,
     },
     [theme.fn.smallerThan('sm')]: {
-      marginRight: 0,
       marginTop: `${rem(40)}`,
       maxWidth: `${rem(200)}`,
     },

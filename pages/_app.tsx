@@ -28,7 +28,11 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   return (
     <>
       <Head>
-        <title>Portfolio - Martin</title>
+        <title>Portfolio - Martin Bolsønes</title>
+        <meta
+          name='description'
+          content='Personal portfolio for Frontend developer Martin Bolsønes. Get to know me and my work.'
+        ></meta>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'

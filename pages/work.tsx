@@ -3,10 +3,14 @@ import { HeaderResponsive } from '../components/Header/Header';
 import { Work } from '../components/work/Work';
 import { Footer } from '../components/footer/Footer';
 
-const useStyles = createStyles(() => ({
+const useStyles = createStyles((theme) => ({
   work: {
     marginTop: `${rem(180)}`,
     maxWidth: `${rem(1280)}`,
+
+    [theme.fn.smallerThan('sm')]: {
+      marginTop: `${rem(100)}`,
+    },
   },
 }));
 

@@ -18,15 +18,15 @@ export function TechInfo() {
           viewport={{ once: true }}
         >
           <Text fz='lg'>
-            Through my studies at Noroff I have gathered most experience in
-            HTML, CSS and Javascript. As well as creating responsive application
-            through pure CSS, I also have worked with frameworks like Bootstrap
-            and Tailwind. I do most of my designs in Figma, but I have also been
-            working with Adobe XD. Some of the things I do want to learn more
-            about is Javascript libraries such as React. I have worked with
-            React and Next.js in my latest projects and want to emprove at this.
-            I have also worked with Node.js, Tailwind, Wordpress, Strapi and
-            Sanity.
+            Through my studies at Noroff I gathered most experience in HTML, CSS
+            and Javascript. My main focus now is React and often through
+            Next.js. As well as creating responsive applications through pure
+            CSS, I also have worked with frameworks like Bootstrap and Tailwind.
+            I do most of my designs in Figma, but I have also been working with
+            Adobe XD. I like to stay updated on different tools and countinue to
+            learn. Some of the things I do want to learn more about is
+            Typescript. I have also worked with React Native, Firebase, Strapi
+            and Sanity.
           </Text>
         </motion.div>
       </Container>

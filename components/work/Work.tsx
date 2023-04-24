@@ -85,6 +85,58 @@ export function Work() {
               </Group>
             </Card>
           </Grid.Col>
+          <Grid.Col sm={6}>
+            <Card shadow='xl' padding='lg' radius='xl'>
+              <Card.Section className={classes.cardBg}>
+                <Image src='/handleliste.png' height={400} alt='Handleliste' />
+              </Card.Section>
+
+              <Group position='apart' mt='lg' mb='md'>
+                <Title order={3} size='h3' weight={500}>
+                  Handleliste
+                </Title>
+                <Group position='right' spacing='xs'>
+                  <Badge color='cyan' variant='light'>
+                    NextJs
+                  </Badge>
+                  <Badge color='cyan' variant='light'>
+                    Tailwind
+                  </Badge>
+                  <Badge color='cyan' variant='light'>
+                    Firebase
+                  </Badge>
+                </Group>
+              </Group>
+
+              <Text size='md' color='dimmed'>
+                Groceries shopping list with Firebase Firestore
+              </Text>
+              <Group>
+                <Anchor href='https://github.com/martinbolsnes/handleliste-next'>
+                  <Button
+                    leftIcon={<RiGithubFill />}
+                    variant='outline'
+                    color='teal'
+                    mt='md'
+                    radius='lg'
+                  >
+                    Github repo
+                  </Button>
+                </Anchor>
+                <Anchor href='https://handleliste-next.vercel.app/'>
+                  <Button
+                    leftIcon={<SiVercel />}
+                    variant='light'
+                    color='teal'
+                    mt='md'
+                    radius='lg'
+                  >
+                    Visit site
+                  </Button>
+                </Anchor>
+              </Group>
+            </Card>
+          </Grid.Col>
 
           <Grid.Col sm={6}>
             <Card shadow='xl' padding='lg' radius='xl' withBorder>
